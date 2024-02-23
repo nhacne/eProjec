@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <title>About</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+  .flex{
+    display: flex;
+
+  }
+  .grid__column-2-4{
+    padding: 5px;
+    width: 20%;
+  }
+}
+        .image-about {
+            width: 1200px;
+            height: 400px;
+            margin: 0 auto;
+            margin-top: 20px;
+            /* background-color: antiquewhite; */
+
+
+        }
+
+        .intro-company {
+            width: 1200px;
+            height: 400px;
+            margin: 0px auto;
+            /* background-color: rgba(0, 255, 255, 0.262); */
+
+        }
+
+        .intro-company > h1 {
+            color:rgba(185, 183, 168, 0.853);
+            text-align: center;
+        }
+
+        .intro-company-text {
+            width: 800px;
+            height: 200px;
+            margin: 0px auto;
+            margin-top: 20px ;
+            /* background-color: rgba(13, 0, 255, 0.262); */
+        }
+
+        .intro-company-text > p {
+            font-size: 23px;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .members {
+            width: 1200px;
+            height: 1000px;
+            margin: 0px auto;
+            margin-top: 20px ;
+            /* background-color: rgba(0, 255, 94, 0.262); */
+        }
+        .members-text {
+            /* color: rgb(255, 3, 3); */
+            font-size: 23px;
+            float: right;
+
+        }
+
+
+
+
+        .box11 {
+            display: -webkit-inline-box;
+        }
+
+        .box11 > p > a > img {
+            padding-right: 4px;
+        }
+
+        .footer {
+            display: flex;
+            margin-left: 315px;
+            text-align: center;
+
+        }
+
+        .box {
+            width: 150px;
+            margin-right: 90px;
+            /* background-color: rgb(244, 240, 235); */
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+        .footer{
+	background-color: white;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: rgb(255, 255, 72);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #717171;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #8a8a8a;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #9f9f9f;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="logo"><img src="Screenshot 2024-02-20 093606.png" width="150" height="15"></a>
+        <a class="active" href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    
+
+    <div class="image-about"><img src="https://static.wixstatic.com/media/d57153_5945de8ef71e4b668b008a9605430548~mv2_d_1801_1287_s_2.png/v1/fill/w_865,h_618,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Website%20menu%20titles-01.png" width="1200" height="400"> </div>
+
+    <div class="intro-company">
+        <h1>Intro Company</h1>
+        <div class="intro-company-text">
+        <p>                        
+            Ryana Calendars is selling different types of Calendar and Diary products.
+            The company advertises by handing out leaflets, v.v. Due to the rapid development of the internet field in this day and age,
+            the company decided to establish a website where people will get all the information about the product is different each other
+            is available to them easily and quickly...
+        </p>
+        </div>
+    </div>
+
+    <!-- <div class="members">
+        <div class="van">
+            <img src="" alt="" class="src" width="100" height="150">
+            <p class="members-text">van</p>
+        </div>
+        <div class="phuc">
+            <img src="" alt="" class="src" width="100" height="150">
+            <p class="members-text">phuc</p>
+        </div>
+        <div class="nam">
+            <img src="" alt="" class="src" width="100" height="150">
+            <p class="members-text">nam</p>
+        </div>
+        <div class="nhat">
+            <img src="" alt="" class="src" width="100" height="150">
+            <p class="members-text">nhat</p>
+        </div>
+        <div class="cong">
+            <img src="" alt="" class="src" width="100" height="150">
+            <p class="members-text">cong</p>
+        </div>
+    </div> -->
+    
+    <hr/>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>	
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">calendars</a></li>
+                        <li><a href="#">diary</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    
+
+</body>
+
+</html>
