@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styleforfooter.css">
+
 
     <title>About</title>
     <style>
@@ -145,17 +147,15 @@
             padding-right: 4px;
         }
 
-        .footer {
-            display: flex;
-            margin-left: 315px;
-            text-align: center;
-
-        }
+      
 
         .box {
             width: 150px;
             margin-right: 90px;
             /* background-color: rgb(244, 240, 235); */
+        }
+        .active-menu {
+          border-bottom: 1px solid black;
         }
 
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -179,90 +179,17 @@ body{
 ul{
 	list-style: none;
 }
-        .footer{
-	background-color: white;
-    padding: 70px 0;
-}
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: black;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: rgb(255, 255, 72);
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #717171;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #8a8a8a;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #9f9f9f;
-}
 
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}
-
-        
     </style>
 </head>
 
 <body>
     <div class="topnav">
-        <a href="logo"><img src="Screenshot 2024-02-20 093606.png" width="150" height="15"></a>
-        <a class="active" href="#home">Home</a>
+        <a href="logo"><img src="logo/img 2.png" width="85" height="85"></a>
+        <a class="active" href="indexHome.html">Home</a>
         <a href="#products">Products</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a class="active-menu" href="indexAbout.html">About</a>
+        <a href="indexContact.html">Contact</a>
       <div class="search-container">
         <form action="/action_page.php">
           <input type="text" placeholder="Search.." name="search">
@@ -272,7 +199,7 @@ ul{
     </div>
     
 
-    <div class="image-about"><img src="https://static.wixstatic.com/media/d57153_5945de8ef71e4b668b008a9605430548~mv2_d_1801_1287_s_2.png/v1/fill/w_865,h_618,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Website%20menu%20titles-01.png" width="1200" height="400"> </div>
+    <div class="image-about"><img src="https://cdn.discordapp.com/attachments/1188672500792573958/1211500324003651594/Untitled4_20240226092936.png?ex=65ee6c99&is=65dbf799&hm=2b735c172f81b439c591744ffc7fd73aa3e4c4b44387103d400be2903d330797&" width="1200" height="400"> </div>
 
     <div class="intro-company">
         <h1>Intro Company</h1>
@@ -343,7 +270,7 @@ ul{
                 <div class="footer-col">
                     <h4>follow us</h4>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="facebook.com"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
+        <link rel="stylesheet" href="styleforfooter.css">
         <!-- <link rel="stylesheet" href="css/style.css"> -->
         <style>
             *,
@@ -7557,12 +7557,12 @@ textarea.form-control {
       font-weight: 500;
       color: #000; }
     .dbox p a {
-      color: #2553b8; }
+      color: #666666; }
   .dbox .icon {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #2553b8;
+    background: #bbc0cc;
     margin: 0 auto;
     margin-bottom: 20px; }
     .dbox .icon span {
@@ -7597,12 +7597,12 @@ textarea.form-control {
     -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
     box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important; }
   .btn.btn-primary {
-    background: #2553b8 !important;
-    border-color: #2553b8 !important;
+    background: #bbc0cc !important;
+    border-color: #bbc0cc !important;
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
-      border-color: #1c408e !important;
-      background: #1c408e !important; }
+      border-color: #bbc0cc !important;
+      background: #bbc0cc !important; }
 
 .contactForm .label {
   color: #000;
@@ -7672,6 +7672,7 @@ textarea.form-control {
 
 .topnav .search-container {
   float: right;
+  margin-top: 20px;
 }
 
 .topnav input[type=text] {
@@ -7695,134 +7696,25 @@ textarea.form-control {
 .topnav .search-container button:hover {
   background: #ccc;
 }
-
-@media screen and (max-width: 600px) {
-  .topnav .search-container {
-    float: none;
-  }
-  .topnav a, .topnav input[type=text], .topnav .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .topnav input[type=text] {
-    border: 1px solid #ccc;  
-  }
-  .flex{
-    display: flex;
-
-  }
-  .grid__column-2-4{
-    padding: 5px;
-    width: 20%;
-  }
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-}
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
-.container{
-	max-width: 1170px;
-	margin:auto;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-ul{
-	list-style: none;
-}
-        .footer{
-	background-color: white;
-    padding: 70px 0;
-}
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: black;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: rgb(255, 255, 72);
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #717171;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #8a8a8a;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #9f9f9f;
+.active-menu {
+          border-bottom: 1px solid black;
+        }
+.topnav > a {
+  /* color: #0069d9; */
+  margin-top: 3px;
 }
 
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}
+
         </style>
     </head>
         
     <body>
         <div class="topnav">
-            <a href="logo"><img src="Screenshot 2024-02-20 093606.png" width="150" height="15"></a>
-            <a class="active" href="#home">Home</a>
-            <a href="#products">Products</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="logo"><img src="logo/img 2.png" width="85" height="85"></a>
+            <a id="01" class="active" href="indexHome.html">Home</a>
+            <a id="01" class="active-product" href="#products">Products</a>
+            <a id="01" href="indexAbout.html">About</a>
+            <a id="01" class="active-menu" href="indexContact.html">Contact</a>
           <div class="search-container">
             <form action="/action_page.php">
               <input type="text" placeholder="Search.." name="search">
